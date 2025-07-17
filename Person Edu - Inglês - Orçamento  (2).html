@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Edu - Aulas de Inglês Personalizadas</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333; /* Cor de texto padrão */
+        }
+        /* Cores da marca Person Edu (baseadas nas imagens do documento) */
+        .bg-person-blue { background-color: #007bff; } /* Azul principal */
+        .text-person-blue { color: #007bff; }
+        .bg-person-darkblue { background-color: #2c3e50; } /* Azul escuro/cinza da logo */
+        .text-person-darkblue { color: #2c3e50; }
+        .bg-person-green { background-color: #28a745; } /* Verde da jornada/destaques */
+        .text-person-green { color: #28a745; }
+        .border-person-blue { border-color: #007bff; }
+        .placeholder-image {
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 0.9rem;
+            text-align: center;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Cabeçalho -->
+    <header class="bg-white shadow-md py-4 px-6 flex flex-col sm:flex-row justify-between items-center rounded-b-lg">
+        <div class="flex items-center mb-4 sm:mb-0">
+           
+            <div class="w-12 h-12 bg-person rounded-full flex items-center justify-center mr-3">
+                <span class="text-white text-xl font-bold"><img src=" https://i.imgur.com/s36vEb2.png"></span>
+            </div>
+            <h1 class=> <img src="https://i.imgur.com/X5oioYv.png" width="200" height="100"></h1>
+        </div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#sobre" class="text-gray-700 hover:text-person-blue font-medium transition duration-300">Sobre</a></li>
+                <li><a href="#planos" class="text-gray-700 hover:text-person-blue font-medium transition duration-300">Planos</a></li>
+                <li><a href="#contato" class="text-gray-700 hover:text-person-blue font-medium transition duration-300">Contato</a></li>
+                <li><a href="https://student.flexge.com/v2/placement/thaiispersan" target="_blank" button class="bg-person-green text-white font-bold py-3 px-6 rounded-full hover:bg-person-darkblue transition duration-300">Teste seu Inglês!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Introdução - Hero Section -->
+    <section class="bg-person-blue text-white py-16 px-6 text-center rounded-lg m-4 shadow-lg">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">
+                Desbloqueie seu Potencial com o Inglês Personalizado!
+            </h2>
+            <p class="text-lg sm:text-xl mb-8 opacity-90">
+                Na Person Edu, sua jornada de aprendizado é única. Aulas 100% focadas em seus objetivos e ritmo, com acompanhamento detalhado e suporte contínuo.
+            </p>
+            <a href="#planos" class="bg-white text-person-blue hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                Conheça Nossos Planos
+            </a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre as Aulas -->
+    <section id="sobre" class="py-16 px-6 bg-white m-4 rounded-lg shadow-lg">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-bold text-center text-person-darkblue mb-12">Como Funcionam Nossas Aulas?</h3>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Google Meet -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="w-20 h-20 bg-person-blue rounded-full flex items-center justify-center mb-4">
+                        <img src="https://i.imgur.com/u7wMsyV.png" -->
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20" ><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-person-blue mb-3">Aulas Online e Flexíveis</h4>
+                    <p class="text-gray-700">
+                        Nossas aulas acontecem via Google Meet, nos dias e horários previamente agendados. Precisa reagendar ou realizar uma aula extra? Basta avisar com antecedência!
+                    </p>
+                </div>
+
+                <!-- Google Classroom -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="w-20 h-20 bg-person-green rounded-full flex items-center justify-center mb-4">
+                        <img src="https://i.imgur.com/b6zySSf.png" -->
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 11a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" /></svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-person-blue mb-3">Plataforma de Acompanhamento</h4>
+                    <p class="text-gray-700">
+                        O Google Classroom é nosso espaço para registro. Acompanhe seu progresso e o total de aulas do seu pacote.
+                    </p>
+                </div>
+
+                <!-- Class Notes -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="w-20 h-20 bg-person-blue rounded-full flex items-center justify-center mb-4">
+                        <img src="https://i.imgur.com/f3LGKSR.jpeg" -->
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.388 4.756A7.978 7.978 0 0010 2a8 8 0 00-7.989 8.24l.011.161-1.3 4.756a.5.5 0 00.62.62l4.756-1.3.161.011A7.978 7.978 0 0010 18a8 8 0 007.388-10.244zM10 16a6 6 0 110-12 6 6 0 010 12zM14.5 9.5a.5.5 0 00-1 0v1a.5.5 0 001 0V9.5zm-3 0a.5.5 0 00-1 0v1a.5.5 0 001 0V9.5z" /></svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-person-blue mb-3">Class Notes</h4>
+                    <p class="text-gray-700">
+                        Não perca nada! Todas as nossas anotações da aula ficam registradas na nossa página no Canva e são 
+                        compartilhadas para você consultar a qualquer momento!
+                    </p>
+                </div>
+
+                <!-- Flexge -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="w-20 h-20 bg-person-white rounded-full flex items-center justify-center mb-4">
+                        <img src="https://i.imgur.com/F8A5IPS.png" -->
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="https://i.imgur.com/F8A5IPS.png"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z" /><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-person-blue mb-3">Estudo Autônomo com Flexge</h4>
+                    <p class="text-gray-700">
+                        Acelere seu desenvolvimento com a plataforma Flexge! Faça as atividades no aplicativo dentro do tempo recomendado e tire todas as suas dúvidas com a professora.
+                    </p>
+                </div>
+                 <!-- Place Holder Acompanhamento Contínuo -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="w-20 h-20 bg-person- rounded-full flex items-center justify-center mb-4">
+                        <img src="https://i.imgur.com/MZBzTCw.png" -->
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="https://flexge.com/assets/img/logo-flexge.png "><path d="M10 12a2 2 0 100-4 2 2 0 000 4z" /><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-person-blue mb-3">Acompanhamento Contínuo</h4>
+                    <p class="text-gray-700">
+                        Receba relatórios de progresso e tenha uma visão real do seu processo de aprendizagem!
+                    </p>
+            </div>
+            <!-- Place Holder Acompanhamento Contínuo -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="w-20 h-20 bg-person- rounded-full flex items-center justify-center mb-4">
+                        <img src="https://i.imgur.com/aBhR0Fr.png" -->
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="https://flexge.com/assets/img/logo-flexge.png "><path d="M10 12a2 2 0 100-4 2 2 0 000 4z" /><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-person-blue mb-3">Currículo Personalizado</h4>
+                    <p class="text-gray-700">
+                        Aprenda com um currículo desenvolvido para você! Uma sequência didática alinhada com as suas metas com o objetivo de otimizar a sua aprendizagem!
+        </div>
+    </section>
+
+    <!-- Seção Jornada do Aluno -->
+    <section class="py-16 px-6 bg-person-darkblue text-white m-4 rounded-lg shadow-lg">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-12">Sua Jornada de Sucesso na Person Edu!</h3>
+            <p class="text-lg mb-8 opacity-90">
+                Do primeiro contato à fluência, cada passo é pensado para o seu desenvolvimento.
+            </p>
+
+            <div class="relative flex flex-col items-center justify-center">
+                <!-- Linha do tempo (simplificada para HTML) -->
+                <div class="absolute w-1 bg-white h-full hidden md:block"></div>
+
+                <div class="grid md:grid-cols-2 gap-8 w-full">
+                    <!-- First Talk -->
+                    <div class="flex items-center md:justify-end md:pr-12">
+                        <div class="bg-person-green p-4 rounded-full mr-4 md:mr-0 md:ml-4 flex-shrink-0">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <div class="bg-white text-person-darkblue p-6 rounded-lg shadow-md text-left w-full max-w-md">
+                            <h4 class="text-xl font-semibold mb-2">1. First Talk</h4>
+                            <p>Nosso primeiro contato para entender seus objetivos e necessidades.</p>
+                        </div>
+                    </div>
+
+                    <!-- Onboarding -->
+                    <div class="flex items-center md:justify-start md:pl-12">
+                        <div class="bg-white text-person-darkblue p-6 rounded-lg shadow-md text-right w-full max-w-md">
+                            <h4 class="text-xl font-semibold mb-2">2. Onboarding</h4>
+                            <p>Recebimento do acesso à plataforma de acompanhamento das aulas e estudo extra.</p>
+                        </div>
+                        <div class="bg-person-blue p-4 rounded-full ml-4 md:ml-0 md:mr-4 flex-shrink-0">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+                        </div>
+                    </div>
+
+                    <!-- Student's Journey -->
+                    <div class="flex items-center md:justify-end md:pr-12">
+                        <div class="bg-person-green p-4 rounded-full mr-4 md:mr-0 md:ml-4 flex-shrink-0">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </div>
+                        <div class="bg-white text-person-darkblue p-6 rounded-lg shadow-md text-left w-full max-w-md">
+                            <h4 class="text-xl font-semibold mb-2">3. Student's Journey</h4>
+                            <p>Aulas semanais e personalizadas de acordo com a sua necessidade.</p>
+                        </div>
+                    </div>
+
+                    <!-- Teachers' Talk -->
+                    <div class="flex items-center md:justify-start md:pl-12">
+                        <div class="bg-white text-person-darkblue p-6 rounded-lg shadow-md text-right w-full max-w-md">
+                            <h4 class="text-xl font-semibold mb-2">4. Teachers' Talk</h4>
+                            <p>Avaliação de desenvolvimento e checagem de progresso.</p>
+                        </div>
+                        <div class="bg-person-blue p-4 rounded-full ml-4 md:ml-0 md:mr-4 flex-shrink-0">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M8 9a1 1 0 100-2 1 1 0 000 2zM11 9a1 1 0 100-2 1 1 0 000 2zM14 9a1 1 0 100-2 1 1 0 000 2zM7 11a1 1 0 100-2 1 1 0 000 2zM10 11a1 1 0 100-2 1 1 0 000 2zM13 11a1 1 0 100-2 1 1 0 000 2zM7 13a1 1 0 100-2 1 1 0 000 2zM10 13a1 1 0 100-2 1 1 0 000 2zM13 13a1 1 0 100-2 1 1 0 000 2z" /></svg>
+                        </div>
+                    </div>
+
+                    <!-- Finalização do Módulo -->
+                    <div class="flex items-center md:justify-end md:pr-12">
+                        <div class="bg-person-green p-4 rounded-full mr-4 md:mr-0 md:ml-4 flex-shrink-0">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-7-8a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <div class="bg-white text-person-darkblue p-6 rounded-lg shadow-md text-left w-full max-w-md">
+                            <h4 class="text-xl font-semibold mb-2">5. Finalização do Módulo</h4>
+                            <p>Celebração do seu progresso e planejamento dos próximos passos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Planos -->
+    <section id="planos" class="py-16 px-6 bg-gray-50 m-4 rounded-lg shadow-lg">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-3xl font-bold text-person-darkblue mb-12">Escolha o Plano Ideal para Você!</h3>
+            <p class="text-lg text-gray-700 mb-8">
+                Todos os planos incluem aulas 100% personalizadas, acompanhamento detalhado e materiais exclusivos.
+            </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Plano Essencial -->
+                <div class="bg-white p-8 rounded-lg shadow-md flex flex-col justify-between transform hover:scale-105 transition duration-300 border-t-4 border-person-blue">
+                    <div>
+                        <h4 class="text-2xl font-bold text-person-blue mb-4">Essencial</h4>
+                        <p class="text-gray-600 mb-2">12 aulas</p>
+                        <p class="text-3xl font-extrabold text-person-darkblue mb-4">R$ 1.608,00</p>
+                        <p class="text-gray-700 mb-4">em até 4x de R$ 402,00 ou <b>R$ 1.447,00</b> à vista.</p>
+                        <ul class="text-left text-gray-700 space-y-2 mb-6">
+                            <li><span class="text-person-green font-bold">&#10003;</span> Aulas 100% Personalizadas</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Acompanhamento Detalhado</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Materiais Exclusivos</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5585997732670" target="_blank" button class="bg-person-blue text-white font-bold py-3 px-6 rounded-full hover:bg-person-darkblue transition duration-300">
+                        Quero o Essencial
+                    </button></a>
+                </div>
+
+                <!-- Plano Avançado -->
+                <div class="bg-white p-8 rounded-lg shadow-md flex flex-col justify-between transform hover:scale-105 transition duration-300 border-t-4 border-person-green">
+                    <div>
+                        <h4 class="text-2xl font-bold text-person-green mb-4">Avançado</h4>
+                        <p class="text-gray-600 mb-2">24 aulas</p>
+                        <p class="text-3xl font-extrabold text-person-darkblue mb-4">R$ 2.928,00</p>
+                        <p class="text-gray-700 mb-4">ou 8x de R$ 366,00 ou <b>R$ 2.635,00</b> à vista.</p>
+                        <ul class="text-left text-gray-700 space-y-2 mb-6">
+                            <li><span class="text-person-green font-bold">&#10003;</span> Aulas 100% Personalizadas</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Acompanhamento Detalhado</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Materiais Exclusivos</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Ótimo custo-benefício</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5585997732670" target="_blank" button class="bg-person-green text-white font-bold py-3 px-6 rounded-full hover:bg-person-darkblue transition duration-300">
+                        Quero o Avançado
+                    </button> </a>
+                </div>
+
+                <!-- Plano Profissional -->
+                <div class="bg-white p-8 rounded-lg shadow-md flex flex-col justify-between transform hover:scale-105 transition duration-300 border-t-4 border-person-blue">
+                    <div>
+                        <h4 class="text-2xl font-bold text-person-blue mb-4">Profissional</h4>
+                        <p class="text-gray-600 mb-2">32 aulas</p>
+                        <p class="text-3xl font-extrabold text-person-darkblue mb-4">R$ 3.770,00</p>
+                        <p class="text-gray-700 mb-4">em até 10x de R$ 377,00 ou <b>R$ 3.393,00</b> à vista.</p>
+                        <ul class="text-left text-gray-700 space-y-2 mb-6">
+                            <li><span class="text-person-green font-bold">&#10003;</span> Aulas 100% Personalizadas</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Acompanhamento Detalhado</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Materiais Exclusivos</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Desenvolvimento contínuo</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5585997732670" target="_blank" button class="bg-person-blue text-white font-bold py-3 px-6 rounded-full hover:bg-person-darkblue transition duration-300">
+                        Quero o Profissional
+                    </button> </a>
+                </div>
+
+                <!-- Plano Premium -->
+                <div class="bg-white p-8 rounded-lg shadow-md flex flex-col justify-between transform hover:scale-105 transition duration-300 border-t-4 border-person-green">
+                    <div>
+                        <h4 class="text-2xl font-bold text-person-green mb-4">Premium</h4>
+                        <p class="text-gray-600 mb-2">48 aulas</p>
+                        <p class="text-3xl font-extrabold text-person-darkblue mb-4">R$ 5.556,00</p>
+                        <p class="text-gray-700 mb-4">ou 12x de R$ 463,00 ou <b>R$ 5.000,00</b> à vista.</p>
+                        <ul class="text-left text-gray-700 space-y-2 mb-6">
+                            <li><span class="text-person-green font-bold">&#10003;</span> Aulas 100% Personalizadas</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Acompanhamento Detalhado</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Materiais Exclusivos</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Melhor Retorno por Aula!</li>
+                            <li><span class="text-person-green font-bold">&#10003;</span> Fluência Maximizada</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5585997732670" target="_blank" button class="bg-person-green text-white font-bold py-3 px-6 rounded-full hover:bg-person-darkblue transition duration-300">
+                        Quero o Premium
+                    </button> </a>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- Seção de Citação -->
+    <section class="py-16 px-6 bg-person-blue text-white text-center m-4 rounded-lg shadow-lg">
+        <div class="max-w-4xl mx-auto">
+            <p class="text-3xl font-light italic mb-4">
+                "An investment in knowledge pays the best interest."
+            </p>
+            <p class="text-xl font-semibold">- Benjamin Franklin</p>
+            <p class="text-lg opacity-90 mt-4">
+                "O investimento em conhecimento é aquele que traz maiores retornos."
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="py-16 px-6 bg-white m-4 rounded-lg shadow-lg">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold text-person-darkblue mb-8">Pronto para Começar? Fale Conosco!</h3>
+            <p class="text-lg text-gray-700 mb-8">
+                Tire suas dúvidas e dê o primeiro passo rumo à fluência em inglês.
+            </p>
+            <a href="https://wa.me/5585997732670" target="_blank" class="bg-person-green text-white font-bold py-4 px-10 rounded-full text-xl shadow-lg hover:bg-green-700 transition duration-300 transform hover:scale-105">
+                <svg class="inline-block w-6 h-6 mr-2 -mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.758-1.379L2 18l1.379-3.242A8.841 8.841 0 012 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM10 5a1 1 0 00-1 1v3H6a1 1 0 100 2h3v3a1 1 0 102 0v-3h3a1 1 0 100-2h-3V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+                Conversar via WhatsApp
+            </a>
+            <p class="text-sm text-gray-500 mt-4">
+                
+            </p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-person-darkblue text-white py-8 px-6 text-center rounded-t-lg mt-4">
+        <p>&copy; 2025 Person Edu. Todos os direitos reservados.</p>
+        <p class="mt-2 text-sm opacity-80">Educação Personalizada para o seu Sucesso.</p>
+    </footer>
+
+</body>
+</html>
